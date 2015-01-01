@@ -1,0 +1,290 @@
+/* Nollställer alla taggar och sätter
+margin till 0 */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+  	 v2.0 | 20110126
+  	 License: none (public domain)
+	*/
+
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, /*ul, li,*/
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	/*
+	ol, ul {
+		list-style: none;
+	}*/
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+	/* =========================== */
+
+body{
+	background-color: #F5F5F5;
+}
+
+h1{
+	font-size: 20px;
+}
+
+div#content{
+	margin-left: 50px;
+}
+
+div.logo_fLetter{
+	background-color: #000000;
+	color: #FFFFFF;
+	width: 15px;
+	padding: 4px;
+}
+
+div.logo_restLetter{
+	padding-left: 4px;
+	padding-top: 4px;
+}
+
+div#panel_1, div#panel_2{
+	width: auto;
+	height: auto;
+	background-color: #000000;
+	color:#FFFFFF;
+	margin-left: 4px;
+	margin-top: 4px;
+}
+
+div.float_left{
+	float: left;
+}
+
+div.clear{
+	clear:both;
+}
+
+div#logo_text_content{
+	padding-top: 4px;
+}
+
+div#logo_pic_content{
+	background-image: url("tux.png");
+	background-repeat: no-repeat;
+	width: 425px;
+	height: 251px;
+
+}
+
+div#nyheter, div#styrelsen, div#arkiv, div#bli_medlem, div#aktiviteter, div#kalender, div#om_vbglug, div#kontakta_oss{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div#bli_medlem{
+	background-color: #CE9307;
+	color: #000000;
+	pointer-events: none;
+}
+
+div#bli_medlem.active{
+	pointer-events: auto;
+}
+
+div#arkiv{
+	background-color: #CE9307;
+	color: #000000;
+	pointer-events: none;
+}
+
+div#arkiv.active{
+	pointer-events: auto;
+}
+
+div#nyheter{
+	background-color: #000000;
+	color: #FFFFFF;
+	pointer-events: none;
+}
+
+div#nyheter.active{
+	pointer-events: none;
+}
+
+div#styrelsen{
+	background-color: #CE9307;
+	color: #000000;
+	pointer-events: none;
+}
+
+div#styrelsen.active{
+	pointer-events: auto;
+}
+
+div#aktiviteter{
+	background-color: #CE9307;
+	color: #000000;
+	pointer-events: none;
+}
+
+div#aktiviteter.active{
+	pointer-events: auto;
+}
+
+div#kalender{
+	background-color: #CE9307;
+	color: #000000;
+	pointer-events: none;
+}
+
+div#kalender.active{
+	pointer-events: auto;
+}
+
+div#om_vbglug{
+	background-color: #CE9307;
+	color: #000000;
+	pointer-events: none;
+}
+
+div#om_vgblug.active{
+	pointer-events: auto;
+}
+
+div#kontakta_oss{
+	background-color: #CE9307;
+	color: #000000;
+	pointer-events: none;
+}
+
+div#kontakta_oss.active{
+	pointer-events: auto;
+}
+
+div#middle_content{
+	margin-left: 0px;
+	width: 900px;
+	height: 700px;
+	padding-top: 20px;
+	text-align: center;
+	background-color: #FFDEAD;
+	-webkit-box-shadow: -6px 3px 4px 0px rgba(0, 0, 0, 0.75);
+-moz-box-shadow:    -6px 3px 4px 0px rgba(0, 0, 0, 0.75);
+box-shadow:         -6px 3px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+div.title_content{
+	font-size: 30px;
+	-webkit-box-shadow: 0px 3px 0px 0px rgba(50, 50, 50, 1);
+-moz-box-shadow:    0px 3px 0px 0px rgba(50, 50, 50, 1);
+box-shadow:         0px 3px 0px 0px rgba(50, 50, 50, 1);
+padding-bottom: 5px;
+width: 200px;
+}
+
+div.center_divBox{
+	margin:0 auto;
+}
+
+
+div#aktiviteter_content{
+	display: none;
+}
+
+div#kalender_content{
+	display: none;
+}
+
+div#arkiv_content{
+	display: none;
+}
+
+div#om_vbglug_content{
+	display: none;
+}
+
+div#kontakta_oss_content{
+	display: none;
+}
+
+div#styrelsen_content{
+	display: none;
+}
+
+div#bli_medlem_content{
+	display: none;
+}
+
+p.speech
+{
+	position: relative;
+	width: 250px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin-left: 150px;
+	background-color: #fff;
+	border: 3px solid #666;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 2px 2px 4px #888;
+	-moz-box-shadow: 2px 2px 4px #888;
+	box-shadow: 2px 2px 4px #888;
+}
+
+p.speech:before
+{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 19px;
+	top: 50px;
+	border: 13px solid;
+	border-color: #666 transparent transparent #666;
+}
+
+p.speech:after
+{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 22px;
+	top: 50px;
+	border: 8px solid;
+	border-color: #fff transparent transparent #fff;
+}
